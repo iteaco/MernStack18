@@ -1,1 +1,1 @@
-//test
+console.log("send to console: We can use node.js to run js file");
