@@ -1,0 +1,39 @@
+/* id based css: 1st priority, but this is not commonly used*/
+
+#name_element {
+    color: rgb(143, 207, 216);
+    font-weight: 600;
+    font-style: oblique;
+    border-radius: 5%;
+    border: 5px solid gray;
+}
+
+/* class based css: 2nd priority  */
+
+.topdiv {
+    border: 2px red solid;
+}
+
+/* tag/element based css: 3rd priority*/
+
+h4 {
+    color: brown;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* ======================================== */
+
+.button{
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 196, 0);
+    border: 1px solid red;
+    border-radius: 5%;
+    margin: 10px;    
+}
+
+.active{ /*when the link is active*/
+    background-color: aquamarine;
+}
+
